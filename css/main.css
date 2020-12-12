@@ -1,0 +1,339 @@
+/***********************
+GENERAL
+***********************/
+body {
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#test {
+  height: 900px;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/***********************
+HEADING
+***********************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+
+h1 {
+font-family: 'Quattrocento', serif;
+margin: 15px 0;
+font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+font-family: 'Quattrocento', serif;
+margin: 0 0 0;
+font-size: 0.75em;
+font-weight: normal;
+}
+
+
+/***********************
+FONTS
+***********************/
+
+/*font-family: 'Gentium Book Basic', serif;*/
+/*font-family: 'Quattrocento', serif;*/
+/*font-family: 'Sorts Mill Goudy', serif;*/
+
+
+/***********************
+NAVIGATION
+***********************/
+nav {
+  text-align: center;
+  padding-bottom: 20px;
+  margin 30px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 5px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+nav a {
+  font-weight: 800;
+  padding 5px 10px;
+}
+
+#edu {
+  margin-right: 10px;
+}
+
+
+
+*********************
+FOOTER
+***********************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.social-icon {
+  width: 40px;
+  height: 20px;
+  margin: 0 20px;
+}
+
+
+/***********************
+PAGE PORTFOLIO
+***********************/
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+
+
+/***********************
+PAGE RESEARCH
+***********************/
+#image {
+  width: 100%;
+}
+
+.profile-photo {
+  display: block;
+  margin: 20px auto;
+  border-radius: 25%;
+  border: 3px solid #008080;
+  clear: both;
+  max-width: 100%;
+}
+
+
+
+/***********************
+PAGE CONTACT
+***********************/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+ display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../twitter.png');
+}
+/***********************
+COLORS
+***********************/
+/* site body */
+body {
+ background-color: #fff;
+ color: #666;
+}
+
+/* green header */
+header {
+  background: #666;
+  border-color: #b2b2b2;
+}
+
+/* nav background on mobile devices */
+nav {
+  background:  #b2b2b2;
+}
+
+div {
+    margin-bottom: 3em;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+a {
+  color: #666;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #008080;
+}
+
+.contact-info a, .contact-info a:visited {
+  color: #666;
+}
+
+.contact-info a:hover {
+ color: #008080;
+}
+
+.poster a {
+ color: #008080;
+}
+
+.link1 {
+ color: #fff;
+}
+
+
+.aboutme a:hover {
+ color: #008080;
+}
+
+.cornell-link a, .cornell-link a:visited {
+  color: #fff;
+}
+
+.cornell-link a:hover {
+  color: #b31b1b;
+}
+
+.cornell a {
+  color: inherit;
+}
+
+.cornell a:hover {
+  color: #b31b1b;
+}
+
+.sula a:hover {
+  color: #F1B521;
+}
+
+.sula a {
+color: inherit;
+}
+
+.sula-link a, .cornell-link a:visited {
+  color: #fff;
+}
+
+.sula-link a:hover {
+  color: #F1B521;
+}
+
+.princeton a {
+  color: inherit}
+.princeton a:hover {
+  color: #F58025;
+}
+
+.nasslli a {
+  color: inherit}
+.nasslli a:hover {
+  color: #CC0033;}
+
+  .plc a {
+  color: inherit}
+.plc a:hover {
+  color: #00144D;}
+
+  .cls a {
+  color: inherit}
+.cls a:hover {
+  color: #800000;}
+
+    .chula a {
+  color: inherit}
+.chula a:hover {
+  color: #FFB6C1;}
+
+    .bls a {
+  color: inherit}
+.bls a:hover {
+  color: #003262;}
+
+    .esslli2018 a {
+  color: inherit}
+.esslli2018 a:hover {
+  color: #0000ff;}  
+  
+     .lsa a {
+  color: inherit}
+.lsa a:hover {
+  color: #445d7b;}   
+  
+  
+  
+  
+footer {
+  font-size: .75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
