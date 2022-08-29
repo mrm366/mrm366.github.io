@@ -221,6 +221,10 @@ h1, h2 {
   color: #fff;
 }
 
+h2 a {
+  color: #fff;
+}
+
 a {
   color: #666;
 }
