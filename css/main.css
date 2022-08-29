@@ -222,7 +222,7 @@ h1, h2 {
 }
 
 h2 a {
-  color: #fff;
+  color: #666;
 }
 
 a {
@@ -264,6 +264,14 @@ nav a.selected, nav a:hover {
 
 .cornell-link a:hover {
   color: #b31b1b;
+}
+
+.roc-link a {
+  color: #fff;
+}
+
+.roc-link a:hover {
+  color: #00287d;
 }
 
 .cornell a {
