@@ -270,6 +270,14 @@ nav a.selected, nav a:hover {
   color: #b31b1b;
 }
 
+.roc a {
+  color: inherit;
+}
+
+.roc a:hover {
+  color: #00287d;
+}
+
 .sula a:hover {
   color: #F1B521;
 }
